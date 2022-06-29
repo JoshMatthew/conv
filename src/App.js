@@ -4,7 +4,7 @@ import { Container, Dropdown, DropdownOption, AmountInput } from "./app.styles";
 
 function App() {
   const BASE_URI = "https://free.currconv.com/api/v7/";
-  const API_KEY = process.env.REACT_APP_API_KEY;
+  const API_KEY = "0e628e3dd017b7781bca"; // usually a bad idea. But this is just a free api key ;)
 
   const [values, setValues] = useState({
     topAmount: 1,
